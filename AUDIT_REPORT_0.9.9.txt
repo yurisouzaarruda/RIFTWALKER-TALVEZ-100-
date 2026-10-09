@@ -1,0 +1,62 @@
+RIFTWALKER 0.9.9 — AUDIT FIX & RELEASE GATE PATCH
+=================================================
+
+ESCOPO
+------
+Revisão feita sobre os arquivos enviados nesta conversa. A pasta de assets não
+foi enviada pelo usuário, então os assets desta cópia foram regenerados pelos
+scripts do próprio projeto antes das validações. Os .bat/.spec ausentes também
+foram reconstruídos nesta cópia e não são cópias byte-a-byte dos originais.
+
+CORREÇÕES APLICADAS
+-------------------
+[FIX] Enemy.take_damage descontava o mesmo dano duas vezes.
+[FIX] Secundária do Mago e do Oráculo usava variável global inexistente `mouse`.
+[FIX] Pause menu chamava cue `ui_move` inexistente.
+[FIX] Missões liberadas tarde agora hidratam objetivos persistentes já realizados.
+[FIX] Boss final agora respeita a trava narrativa `final_path_open`.
+[FIX] Rupturas já ativas deixam de reaparecer na oferta; não há pilha infinita duplicada.
+[FIX] Sidecar de metadata de slot é regravado quando um autosave altera o checksum.
+[FIX] 11 SFX esperados pelo runtime mas ausentes do pipeline foram adicionados ao gerador.
+[FIX] VERSION/README/relatório/manifests foram sincronizados para 0.9.9.
+
+VALIDAÇÃO EXECUTADA NESTE AMBIENTE
+----------------------------------
+[OK] compileall
+[OK] self_test (parte core/content)
+[OK] stress_test
+[OK] release_audit: 0 blockers / 0 warnings
+[OK] asset_integrity: 284 OGG
+[OK] FFprobe: 284/284 OGG decodificáveis
+[OK] 10 classes / 65 skills / 28 equipamentos / 6 regiões / 12 quests / 6 bosses
+[SKIP] smoke test visual Pygame: pacote pygame indisponível neste ambiente
+[SKIP] teste de mixer/dispositivo real
+[SKIP] build Windows PyInstaller real
+[SKIP] balanceamento humano/feeling
+
+GAPS IMPORTANTES AINDA NÃO PROMOVIDOS PARA 1.0
+-----------------------------------------------
+1. O backend de mapa procedural por seed existe e é stress-testado, mas o loop jogável
+   principal ainda usa progressão de waves/arena em spawn_next_room.
+2. Facções/reputação possuem backend, porém escolhas de facção não têm fluxo de UI
+   normal em main.py; isso limita finais dependentes de reputação.
+3. Provações e Legado de Ecos estão parcialmente ligados ao runtime, mas não possuem
+   fluxo completo de seleção/desbloqueio/recompensa na UI principal.
+4. Refúgio mostra recursos/instalações, mas crafting, vendors, salvage e preparação de
+   expedição do backend ainda não estão todos expostos no loop jogável.
+5. Tutorial/Códice possuem backend; gatilhos de tutorial/desbloqueio do Códice ainda
+   precisam ser ligados ao gameplay normal.
+6. NG+ e boss rush existem no backend, mas ainda precisam de entrada clara na UI.
+7. Parte das 65 skills usa executor genérico; alguns metadados especiais ainda não têm
+   semântica 1:1 com a descrição (ex.: repair_field/future_echo/alguns buffs/debuffs).
+8. settings.json contém bindings configuráveis, mas o runtime ainda trata controles
+   principais por teclas hard-coded; a tela não oferece rebinding real.
+9. Diálogos de NPC existem, mas o fluxo de conversa do Refúgio ainda não está exposto
+   como interface normal; quests dependentes de `met_nox` precisam desse caminho.
+10. Teste visual real continua obrigatório antes de 1.0: hitboxes, UI, áudio, performance,
+    balanceamento e campanha completa.
+
+REGRA DE RELEASE
+----------------
+Esta cópia está mais consistente e passa todos os gates offline disponíveis, mas NÃO deve
+ser chamada de 1.0 final sem a bateria real de Pygame descrita em FIRST_REAL_TEST_CHECKLIST.txt.

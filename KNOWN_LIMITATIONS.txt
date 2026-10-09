@@ -1,0 +1,14 @@
+RIFTWALKER 0.10 RC — LIMITAÇÕES CONHECIDAS
+==========================================
+
+1. O smoke test renderiza o jogo e o salão do Refúgio com Pygame em modo headless; ainda falta jogar manualmente com janela real para validar input, mixer, hitboxes, UI e performance.
+2. O teste real de janela, dispositivos de áudio, sensação de combate e desempenho ainda precisa ser feito no notebook.
+3. As vozes atuais são síntese provisória em português. O sistema permite substituí-las posteriormente sem reescrever o gameplay.
+4. SFX, ambience e músicas atuais foram gerados proceduralmente para a RC. São funcionais e originais, mas ainda podem ser refinados no polimento.
+5. Grande parte da arte visual ainda é protótipo/procedural. A RC foca em deixar sistemas, conteúdo e pipeline completos antes da fase visual final.
+6. Balanceamento definitivo depende de partidas reais. Os limites automáticos evitam extremos conhecidos, mas não substituem sensação de jogo.
+7. A build .exe foi preparada via PyInstaller, mas o executável precisa ser gerado/testado no Windows com PyInstaller instalado.
+
+8. O ranking online vem desligado até um projeto Supabase ser configurado. O ranking local funciona sem internet.
+9. O placar online é comunitário: por ser um jogo single-player executado no cliente, não existe anti-cheat inviolável apenas com a chave pública/API REST.
+10. As telas principais, diálogos de NPC e navegação do salão do Refúgio têm cobertura automatizada; menus e campanha ainda precisam de uma passagem manual completa no notebook.

@@ -1,0 +1,20 @@
+RIFTWALKER 0.10.2 — ANIMATION & COMBAT PASS
+
+ENTREGUE
+- 20 skins de jogador animadas (10 classes x masculino/feminino).
+- 10 entidades inimigas/bosses animadas.
+- 720 PNG frames validados sem erro; 360 quadros de locomoção foram regenerados para remover recortes artificiais do corpo.
+- Estados animados: idle, walk, run, attack e hurt.
+- Runtime carrega frames por estado/progresso, evita deformação dupla ao caminhar/correr e preserva flip horizontal pela direção da mira.
+- Slash de melee melhorado com halo, lâmina colorida, núcleo branco e rastros.
+- Mira avançada preservada do visual pass anterior.
+
+TESTES OFFLINE
+- python compileall: OK
+- self_test: OK (renderização Pygame headless e teste de locomoção incluídos)
+- stress_test: OK
+- 720 frames PNG verificados: 0 erros; 360 frames walk/run com dimensões RGBA consistentes.
+- Testes de 30 s de ataque básico contínuo e de Bola de Fogo confirmam que a Mana da Maga cai abaixo dos limites esperados.
+
+GATE RESTANTE
+- Teste visual/jogável real no notebook com Pygame para avaliar fluidez, timing e ajustes finos de animação.

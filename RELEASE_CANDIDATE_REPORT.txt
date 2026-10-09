@@ -1,0 +1,75 @@
+RIFTWALKER — 0.10.0 RELEASE CANDIDATE REPORT
+==========================================
+
+STATE
+Feature freeze / full backend-to-runtime integration pass complete.
+Ready for first real Pygame playtest. Not promoted to 1.0 until that pass.
+
+PROJECT METRICS
+Python files (top-level): 33
+Python lines (tools/tests/generators included): 19038
+Runtime/system Python lines: 17392
+Classes: 10
+Skills: 65
+Equipment: 28
+Regions: 6
+Quests: 12
+Bosses: 6
+Boss patterns: 20
+Creature bases: 10
+Save slots: 3
+Save schema: 8
+
+0.10 INTEGRATION GATE
+[OK] procedural expedition map drives runtime room flow
+[OK] all generated reachable nodes preserve a route to the boss
+[OK] hub facilities/crafting/salvage/vendors buy+sell exposed
+[OK] factions, trials, legacy, NPC dialogue and expedition preparation exposed
+[OK] consumable loadout + in-run supplies exposed
+[OK] bestiary research exposed
+[OK] NG+ and Boss Rush exposed
+[OK] inventory pagination / profile delete+restore / keyboard rebinding exposed
+[OK] local leaderboard persistence/scoring
+[READY, OFF BY DEFAULT] online Supabase leaderboard client + SQL/RLS schema
+
+AUDIO / ASSETS
+Base SFX/music/ambience: 71
+Player voice OGG: 182 (91 lines x male/female)
+Enemy/boss voice OGG: 31
+Total OGG: 284
+Total files under assets/: 288
+FFprobe decodability: 284/284 OK
+
+FINAL OFFLINE GATES
+[OK] Python compileall
+[OK] release audit — 0 blockers / 0 warnings
+[OK] asset integrity — 284 OGG
+[OK] self_test
+[OK] stress_test
+[OK] 300 procedural maps + all-node-to-boss connectivity
+[OK] 300 generated encounter plans
+[OK] 10 class kits
+[OK] 6 boss decks/phases
+[OK] save v8 + 3 slots/checksum
+[OK] local ranking roundtrip/sorting
+[OK] PyInstaller spec includes assets + leaderboard config
+
+NOT POSSIBLE IN THIS ENVIRONMENT
+[ ] Real Pygame window/input test (pygame package unavailable here)
+[ ] Real mixer/output-device listening test
+[ ] Windows PyInstaller execution test
+[ ] Human gameplay balance/feel test
+[ ] Live online leaderboard request (no Supabase project is configured in leaderboard_config.json)
+
+ONLINE NOTE
+The shipped online leaderboard is optional and community-oriented. It accepts
+anonymous insert/read through RLS and is designed so network failure falls back
+to the local leaderboard. A client-side single-player build cannot provide
+inviolable anti-cheat by itself.
+
+NEXT GATE
+1. Run install_and_run.bat on the notebook.
+2. Follow FIRST_REAL_TEST_CHECKLIST.txt, including the new 0.10 integration items.
+3. Fix blockers/softlocks/visual or audio issues found in real play.
+4. Optionally connect a Supabase project for live online rankings.
+5. Only then consider promoting the RC toward 1.0.

@@ -1,0 +1,23 @@
+RIFTWALKER 0.10.3 — VISUAL POLISH REPORT
+
+Entregue nesta passagem:
+- 20 skins de classes (10 masculino + 10 feminino) herdadas da 0.10.2.
+- 4 monstros-base + 6 bosses com sprites próprios.
+- 720 frames de animação herdados da 0.10.2.
+- Mira avançada com linha, crosshair, preview de cone/linha/área/blink e alvo destacado.
+- VFX de projéteis elementais e físicos.
+- Partículas com glow/rastro.
+- Impact rings para hits.
+- Cast runes e leitura de direção.
+- Telegraph visual reforçado de bosses.
+
+Validação automática:
+- py_compile: OK
+- self_test: OK (parte pygame pulada porque pygame não está instalado no ambiente)
+- stress_test: OK
+- release audit integrado no stress_test: 0 blockers
+
+Gate restante antes de 1.0:
+- teste visual real no notebook/Windows com Pygame instalado;
+- ajuste fino de timing/escala após ver as animações em movimento;
+- build .exe e teste de instalação.

@@ -1,0 +1,12 @@
+RIFTWALKER 0.10.1 VISUAL PASS
+
+Resumo:
+- 20 skins de classe geradas (10 classes x masculino/feminino).
+- 4 sprites de inimigos base gerados.
+- 6 sprites de bosses gerados.
+- Mira/telegraph reforçados no runtime com preview visual e highlight de alvo.
+
+Observações:
+- Alterações aplicadas em /assets/sprites/player e /assets/sprites/enemies.
+- Runtime validado com py_compile.
+- self_test sem pygame no ambiente do container; teste jogável real ainda precisa ser feito na máquina com pygame instalado.

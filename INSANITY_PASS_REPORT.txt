@@ -1,0 +1,56 @@
+RIFTWALKER 0.11.0 — INSANITY PASS REPORT
+========================================
+
+OBJETIVO
+Transformar quatro áreas de alto impacto em sistemas de gameplay reais:
+1) game feel
+2) bosses
+3) salas interativas
+4) run/ranking/desafio diário
+
+IMPLEMENTADO
+GAME FEEL
+- Input buffering: ataque básico, secundário e dash.
+- Combo com janela temporal, melhor combo e grades C/B/A/S/SS/SSS.
+- Stagger em inimigos/bosses com feedback visual e hit-stop.
+- Screen shake direcional e impactos reforçados.
+
+BOSSES
+- Intro cinematográfica com nome/título.
+- Transição visual por fase.
+- Telegraph real: o ataque é anunciado, a direção é travada e só depois o dano/projéteis executam.
+- Telegraph visual específico para linha, melee/cone e área/ultimate.
+- Boss stagger pode interromper telegraph.
+
+SALAS INTERATIVAS
+- Objetos gerados deterministicamente por seed/nó/região.
+- Cristal Volátil, Espinho do Véu, Cofre de Eco, Poço de Cura e Pilar de Ruptura.
+- Interação com ataques/projéteis, inimigos e jogador.
+
+RUN / RANKING / DAILY
+- Resumo de run: score, salas, kills, bosses, melhor combo, tempo e gap para próximo colocado.
+- Desafio Diário por data UTC, seed determinística, região/modificador e multiplicador de score.
+- Ranking Local/Online com filtro Geral/Diário via trial_id.
+- Online permanece opcional; sem Supabase/internet, o jogo e ranking local continuam funcionais.
+
+VALIDAÇÃO AUTOMÁTICA NESTE AMBIENTE
+- Python py_compile / compileall: OK
+- self_test: OK; parte Pygame pulada porque pygame não está instalado no container
+- stress_test: OK
+- release_audit: 0 blockers / 0 warnings
+- asset_integrity: 284 OGG OK
+
+AINDA EXIGE TESTE REAL NO VS CODE/WINDOWS
+- janela/render real
+- mouse/teclado físico e feeling do input buffer
+- mixer/dispositivo de áudio
+- FPS/performance
+- alinhamento final de hitboxes, sprites, telegraphs e VFX
+- balanceamento humano de stagger, bosses e objetos de sala
+
+ATALHOS DA 0.11
+- D em Refúgio > Expedições: Desafio Diário
+- L: Ranking
+- TAB no Ranking: Local/Online
+- D no Ranking: Geral/Diário
+- R no Ranking Online: atualizar

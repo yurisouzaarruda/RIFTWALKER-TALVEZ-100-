@@ -1,0 +1,64 @@
+RIFTWALKER 0.10.0 — FULL SYSTEMS INTEGRATION & LEADERBOARDS RC
+
+ESTADO
+- Feature freeze mantido.
+- Sistemas de backend relevantes agora possuem caminho de runtime/UI no jogo.
+- Ranking local está ativo offline.
+- Ranking online está implementado, mas permanece OFF até leaderboard_config.json apontar para um projeto Supabase configurado.
+- Não promover para 1.0 antes da bateria real em Pygame/Windows.
+
+INTEGRAÇÕES PRINCIPAIS
+- mapa procedural/rotas/salas especiais
+- Refúgio: instalações, craft, desmontagem, compra/venda, facções, Provações, Legado, NPCs, expedições/suprimentos e pós-jogo
+- Pesquisa do Arquivo / Bestiário
+- NG+ / Boss Rush
+- inventário paginado, profiles apagar/restaurar, rebinding de teclado
+- rankings Local + Online opcional
+
+GATES OFFLINE
+- compileall: OK
+- self_test: OK
+- stress_test: OK
+- release_audit: 0 blockers / 0 warnings
+- asset_integrity: 284 OGG OK
+- FFprobe: 284/284 OK
+
+Veja INTEGRATION_REPORT_0.10.0.txt e FIRST_REAL_TEST_CHECKLIST.txt.
+
+--- HISTÓRICO ANTERIOR ---
+RIFTWALKER 0.9.9 - AUDIT FIX & RELEASE GATE PATCH
+
+Correcoes desta revisão:
+- dano em inimigos não é mais aplicado duas vezes
+- secundária de Mago/Oráculo usa aim_target válido (remove NameError de mouse)
+- cue ui_move registrado
+- missões recém-desbloqueadas reconhecem fatos persistentes já concluídos
+- boss final respeita final_path_open
+- ofertas de Ruptura não repetem Rupturas já ativas
+- metadata de slot é regravada após autosave invalidar checksum
+- gerador inclui footsteps e SFX básicos de inimigos esperados pelo runtime
+- versão/documentação sincronizada para 0.9.9
+
+Validação desta revisão: veja AUDIT_REPORT_0.9.9.txt.
+
+--- HISTORICO ANTERIOR ---
+RIFTWALKER 0.9.8 - AUDITORIA E CORRECOES
+
+Correcoes principais:
+- save/backup: recuperacao nao destrói mais o backup valido
+- verificacao de slot detecta JSON principal corrompido
+- Diretor de Encontros usa mortes recentes, com decaimento por sala
+- banners agora entram em fila e nao sobrescrevem avisos de boss/missao
+- canais reservados de voz/ambiente corrigidos no pygame.mixer
+- mouse nao atravessa inventario/painel para atacar
+- inventario nao abre painéis meta por baixo
+- mira/nevoa alinhadas ao screen shake
+- loadout ativo preserva ordem de Q/E/R/F ao aprender novas skills
+- failsafe visual evita skins quase totalmente transparentes
+- materializacao do arquivo unico revalida runtime extraido
+
+Verificacao automatizada:
+- compileall: OK
+- self_test: OK (pygame visual pulado neste ambiente)
+- stress_test: OK
+- regressao save/profile/recent_deaths: OK

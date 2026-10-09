@@ -1,0 +1,92 @@
+RIFTWALKER 0.10.0 — INTEGRATION REPORT
+========================================
+
+OBJETIVO DESTA REVISÃO
+Expor no jogo jogável os sistemas que já existiam como backend e acrescentar
+uma meta competitiva sem transformar RIFTWALKER em multiplayer.
+
+O QUE FOI LIGADO AO RUNTIME/UI
+1. WORLDGEN / EXPEDIÇÕES
+   - o grafo procedural por seed passa a decidir a sequência real de salas;
+   - escolhas de rota entram como cards;
+   - tipos especiais (evento, descanso, mercador, santuário, Ruptura, tesouro,
+     secreta, elite e boss) têm resolução real;
+   - rotas secretas receberam saída garantida para evitar softlock.
+
+2. REFÚGIO / ECONOMIA
+   - upgrades das 5 instalações;
+   - crafting;
+   - desmontagem;
+   - compra e venda em vendedores;
+   - contratos;
+   - preparação de loadout de suprimentos;
+   - uso de consumíveis durante a run.
+
+3. NARRATIVA / META
+   - NPCs e diálogos contextuais;
+   - facções e reputação;
+   - missões continuam dirigidas pelos eventos reais;
+   - Provações e conquistas;
+   - Legado de Ecos;
+   - Códice/Bestiário e Pesquisa do Arquivo;
+   - NG+ e Boss Rush.
+
+4. EXPERIÊNCIA DO JOGADOR
+   - mapa no runtime;
+   - inventário paginado;
+   - apagar/restaurar save no frontend;
+   - rebinding de teclado;
+   - tutorial/codex triggers ligados aos eventos;
+   - diagnóstico F3 e crash reports preservados.
+
+5. RANKING LOCAL
+   - persiste em leaderboard_local.json;
+   - top 40 local;
+   - pontuação usa salas, kills, bosses, Superiores, Rupturas, dificuldade,
+     ciclo NG+, Provação, resultado e bônus limitado de eficiência;
+   - vitória, morte e abandono podem registrar run;
+   - rede nunca é necessária para o placar local.
+
+6. RANKING ONLINE OPCIONAL
+   - cliente REST Supabase em leaderboard_systems.py;
+   - chamadas em thread para não travar gameplay;
+   - cache de top online;
+   - fallback para local em qualquer falha de rede;
+   - SQL de tabela, índice e RLS em SUPABASE_LEADERBOARD_SETUP.sql;
+   - leaderboard_config.json vem desativado e sem credenciais.
+
+LIMITE DE SEGURANÇA DO RANKING
+RIFTWALKER é single-player e roda a lógica no cliente. Portanto um jogador com
+controle do próprio PC pode adulterar dados do processo/arquivos. O placar
+online implementado é comunitário e possui validações de faixa/imutabilidade no
+banco, mas não deve ser descrito como anti-cheat inviolável. Para competição
+séria seria necessário um serviço servidor que valide runs/telemetria assinada.
+
+GATES OFFLINE EXECUTADOS NESTA CÓPIA
+- python -m compileall -q . : OK
+- python self_test.py : OK (Pygame visual pulado neste ambiente)
+- python stress_test.py : OK
+- python release_audit.py : 0 blockers / 0 warnings
+- python asset_integrity.py : 284 OGG / ASSETS OK
+- FFprobe : 284/284 OGG decodificáveis
+
+ESCOPO QUE AINDA PRECISA DE HARDWARE/TESTE HUMANO
+- janela real Pygame e navegação de todas as telas;
+- teclado/mouse reais e rebinding;
+- mixer/dispositivo de áudio;
+- hitboxes/telegraphs/UI em resolução real;
+- performance/stutter;
+- sensação de balanceamento;
+- PyInstaller no Windows;
+- ranking online ao vivo depois que um projeto Supabase for conectado.
+
+DECISÕES NOVAS DE DESIGN (não eram especificadas em detalhe pelo backend)
+- os consumíveis receberam efeitos de runtime coerentes com suas descrições;
+- perks de facção com nomes suficientemente claros receberam integrações
+  conservadoras (ex.: desconto de suprimentos, dicas de mapa/pesquisa);
+- flags cujo efeito exato não é definido pelos arquivos continuam preservadas
+  como ganchos de conteúdo em vez de receber comportamento arbitrário pesado.
+
+CONCLUSÃO
+A 0.10.0 é a primeira candidata em que os grandes sistemas de backend têm um
+caminho de uso pelo jogador. Ela continua sendo RC até a bateria real de Pygame.

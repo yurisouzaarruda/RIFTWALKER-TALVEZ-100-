@@ -1,0 +1,90 @@
+RIFTWALKER — AUDIO ASSET MANIFEST 0.9.9 RC
+===========================================
+
+ÁUDIO BASE GERADO PROCEDURALMENTE PELO PROJETO
+Arquivos esperados pelo AudioRouter/MusicDirector: 71
+Estado: COMPLETO
+
+[OK] assets/audio/ambience/abyss.ogg
+[OK] assets/audio/ambience/bastion.ogg
+[OK] assets/audio/ambience/fields.ogg
+[OK] assets/audio/ambience/forest.ogg
+[OK] assets/audio/ambience/hub.ogg
+[OK] assets/audio/ambience/observatory.ogg
+[OK] assets/audio/boss/death.ogg
+[OK] assets/audio/boss/phase_change.ogg
+[OK] assets/audio/combat/arcane_impact_01.ogg
+[OK] assets/audio/combat/arcane_impact_02.ogg
+[OK] assets/audio/combat/arrow_01.ogg
+[OK] assets/audio/combat/arrow_02.ogg
+[OK] assets/audio/combat/arrow_03.ogg
+[OK] assets/audio/combat/arrow_hit_01.ogg
+[OK] assets/audio/combat/arrow_hit_02.ogg
+[OK] assets/audio/combat/dash_01.ogg
+[OK] assets/audio/combat/dash_02.ogg
+[OK] assets/audio/combat/enemy_death_01.ogg
+[OK] assets/audio/combat/enemy_death_02.ogg
+[OK] assets/audio/combat/enemy_death_03.ogg
+[OK] assets/audio/combat/fire_impact_01.ogg
+[OK] assets/audio/combat/fire_impact_02.ogg
+[OK] assets/audio/combat/fire_impact_03.ogg
+[OK] assets/audio/combat/footstep_01.ogg
+[OK] assets/audio/combat/footstep_02.ogg
+[OK] assets/audio/combat/footstep_03.ogg
+[OK] assets/audio/combat/footstep_04.ogg
+[OK] assets/audio/combat/heal.ogg
+[OK] assets/audio/combat/ice_break_01.ogg
+[OK] assets/audio/combat/ice_break_02.ogg
+[OK] assets/audio/combat/lightning_impact.ogg
+[OK] assets/audio/combat/magic_cast_01.ogg
+[OK] assets/audio/combat/magic_cast_02.ogg
+[OK] assets/audio/combat/magic_cast_03.ogg
+[OK] assets/audio/combat/parry_01.ogg
+[OK] assets/audio/combat/parry_02.ogg
+[OK] assets/audio/combat/player_hurt_01.ogg
+[OK] assets/audio/combat/player_hurt_02.ogg
+[OK] assets/audio/combat/sword_hit_01.ogg
+[OK] assets/audio/combat/sword_hit_02.ogg
+[OK] assets/audio/combat/sword_hit_03.ogg
+[OK] assets/audio/combat/sword_hit_04.ogg
+[OK] assets/audio/combat/sword_swing_01.ogg
+[OK] assets/audio/combat/sword_swing_02.ogg
+[OK] assets/audio/combat/sword_swing_03.ogg
+[OK] assets/audio/combat/sword_swing_04.ogg
+[OK] assets/audio/combat/void_impact.ogg
+[OK] assets/audio/enemy/attack_melee.ogg
+[OK] assets/audio/enemy/attack_ranged.ogg
+[OK] assets/audio/enemy/hurt.ogg
+[OK] assets/audio/enemy/roar.ogg
+[OK] assets/audio/enemy/step_crawler.ogg
+[OK] assets/audio/enemy/step_heavy.ogg
+[OK] assets/audio/enemy/step_light.ogg
+[OK] assets/audio/enemy/superior_spawn.ogg
+[OK] assets/audio/music/after_the_rift.ogg
+[OK] assets/audio/music/beyond_the_veil.ogg
+[OK] assets/audio/music/boss_veilbreaker.ogg
+[OK] assets/audio/music/last_light.ogg
+[OK] assets/audio/music/menu_theme.ogg
+[OK] assets/audio/music/rupture_combat.ogg
+[OK] assets/audio/music/superior_hunt.ogg
+[OK] assets/audio/music/the_nameless.ogg
+[OK] assets/audio/rift/accept.ogg
+[OK] assets/audio/rift/open.ogg
+[OK] assets/audio/ui/back.ogg
+[OK] assets/audio/ui/confirm_01.ogg
+[OK] assets/audio/ui/confirm_02.ogg
+[OK] assets/audio/ui/hover.ogg
+[OK] assets/audio/ui/legendary_drop.ogg
+[OK] assets/audio/ui/rare_drop.ogg
+
+VOZ PROVISÓRIA SINTÉTICA
+Falas únicas: 91
+Arquivos de voz (masculino + feminino): 182
+[OK] assets/audio/voice_manifest.json
+Falas de bosses/inimigos: 31
+Arquivos de bosses/inimigos: 31
+[OK] assets/audio/enemy_voice_manifest.json
+
+TOTAL OGG VALIDADO: 284
+
+Observação: as vozes são placeholders sintéticos para a RC/torneio e podem ser substituídas por dublagem final depois.

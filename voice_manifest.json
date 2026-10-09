@@ -1,0 +1,366 @@
+{
+  "A MORTE ESPERA.": {
+    "male": "assets/audio/voice/c4f6eeeb3ee7_male.ogg",
+    "female": "assets/audio/voice/c4f6eeeb3ee7_female.ogg"
+  },
+  "ABRA CAMINHO!": {
+    "male": "assets/audio/voice/64e4f4ea0c21_male.ogg",
+    "female": "assets/audio/voice/64e4f4ea0c21_female.ogg"
+  },
+  "ABRA-SE POR COMPLETO!": {
+    "male": "assets/audio/voice/ae45c6744ffd_male.ogg",
+    "female": "assets/audio/voice/ae45c6744ffd_female.ogg"
+  },
+  "ABRA-SE!": {
+    "male": "assets/audio/voice/37436e591ccc_male.ogg",
+    "female": "assets/audio/voice/37436e591ccc_female.ogg"
+  },
+  "ABRAM A LINHA!": {
+    "male": "assets/audio/voice/7964ddd48aa3_male.ogg",
+    "female": "assets/audio/voice/7964ddd48aa3_female.ogg"
+  },
+  "ABRAM CAMINHO!": {
+    "male": "assets/audio/voice/c2958e198fc3_male.ogg",
+    "female": "assets/audio/voice/c2958e198fc3_female.ogg"
+  },
+  "ABRAM!": {
+    "male": "assets/audio/voice/5dd4f54466b0_male.ogg",
+    "female": "assets/audio/voice/5dd4f54466b0_female.ogg"
+  },
+  "ACABOU.": {
+    "male": "assets/audio/voice/50fdff96e2a9_male.ogg",
+    "female": "assets/audio/voice/50fdff96e2a9_female.ogg"
+  },
+  "ACOMPANHE SE PUDER!": {
+    "male": "assets/audio/voice/c579d57244b7_male.ogg",
+    "female": "assets/audio/voice/c579d57244b7_female.ogg"
+  },
+  "AGORA!": {
+    "male": "assets/audio/voice/dd943e258350_male.ogg",
+    "female": "assets/audio/voice/dd943e258350_female.ogg"
+  },
+  "AGORA... E DE NOVO.": {
+    "male": "assets/audio/voice/82a060ac0442_male.ogg",
+    "female": "assets/audio/voice/82a060ac0442_female.ogg"
+  },
+  "AINDA NÃO.": {
+    "male": "assets/audio/voice/a4bc53d5d063_male.ogg",
+    "female": "assets/audio/voice/a4bc53d5d063_female.ogg"
+  },
+  "AO CHÃO!": {
+    "male": "assets/audio/voice/e8b9d168b892_male.ogg",
+    "female": "assets/audio/voice/e8b9d168b892_female.ogg"
+  },
+  "AQUI É O FIM DA SUA PASSAGEM!": {
+    "male": "assets/audio/voice/d97ceeb26351_male.ogg",
+    "female": "assets/audio/voice/d97ceeb26351_female.ogg"
+  },
+  "ATRASADO.": {
+    "male": "assets/audio/voice/04845f893f13_male.ogg",
+    "female": "assets/audio/voice/04845f893f13_female.ogg"
+  },
+  "ATRAVESSE.": {
+    "male": "assets/audio/voice/5f7ed45ada7b_male.ogg",
+    "female": "assets/audio/voice/5f7ed45ada7b_female.ogg"
+  },
+  "ATRÁS DE MIM!": {
+    "male": "assets/audio/voice/14de6b8bf7b3_male.ogg",
+    "female": "assets/audio/voice/14de6b8bf7b3_female.ogg"
+  },
+  "BOLA DE FOGO!": {
+    "male": "assets/audio/voice/391cabd2283c_male.ogg",
+    "female": "assets/audio/voice/391cabd2283c_female.ogg"
+  },
+  "CAIA SOBRE ELES!": {
+    "male": "assets/audio/voice/55f471ce0158_male.ogg",
+    "female": "assets/audio/voice/55f471ce0158_female.ogg"
+  },
+  "CAMINHEM COMIGO!": {
+    "male": "assets/audio/voice/3afe90ccc0a9_male.ogg",
+    "female": "assets/audio/voice/3afe90ccc0a9_female.ogg"
+  },
+  "CHUVA DE FLECHAS!": {
+    "male": "assets/audio/voice/41596f3a6b0d_male.ogg",
+    "female": "assets/audio/voice/41596f3a6b0d_female.ogg"
+  },
+  "COLHEITA!": {
+    "male": "assets/audio/voice/ecfd0ba9e068_male.ogg",
+    "female": "assets/audio/voice/ecfd0ba9e068_female.ogg"
+  },
+  "CONGELE!": {
+    "male": "assets/audio/voice/1d55a34a8ae6_male.ogg",
+    "female": "assets/audio/voice/1d55a34a8ae6_female.ogg"
+  },
+  "CONTE SE CONSEGUIR!": {
+    "male": "assets/audio/voice/10dfe53bf904_male.ogg",
+    "female": "assets/audio/voice/10dfe53bf904_female.ogg"
+  },
+  "CORRENTE ARCANA!": {
+    "male": "assets/audio/voice/b8004b0bcaa4_male.ogg",
+    "female": "assets/audio/voice/b8004b0bcaa4_female.ogg"
+  },
+  "CORTE!": {
+    "male": "assets/audio/voice/b45e8a5af5ab_male.ogg",
+    "female": "assets/audio/voice/b45e8a5af5ab_female.ogg"
+  },
+  "CORTE.": {
+    "male": "assets/audio/voice/92b0757e4e3a_male.ogg",
+    "female": "assets/audio/voice/92b0757e4e3a_female.ogg"
+  },
+  "Chamas, respondam ao meu chamado...": {
+    "male": "assets/audio/voice/072d09a0c018_male.ogg",
+    "female": "assets/audio/voice/072d09a0c018_female.ogg"
+  },
+  "DEVOLVIDO!": {
+    "male": "assets/audio/voice/c48d1a32db15_male.ogg",
+    "female": "assets/audio/voice/c48d1a32db15_female.ogg"
+  },
+  "DO ALTO!": {
+    "male": "assets/audio/voice/3689691e1fd6_male.ogg",
+    "female": "assets/audio/voice/3689691e1fd6_female.ogg"
+  },
+  "DOIS FINS. UM INSTANTE.": {
+    "male": "assets/audio/voice/55dfa7a33cd9_male.ogg",
+    "female": "assets/audio/voice/55dfa7a33cd9_female.ogg"
+  },
+  "DRONE, ATIVO!": {
+    "male": "assets/audio/voice/8ea4a8091088_male.ogg",
+    "female": "assets/audio/voice/8ea4a8091088_female.ogg"
+  },
+  "DÉCIMO IMPACTO!": {
+    "male": "assets/audio/voice/ab9ef95ae853_male.ogg",
+    "female": "assets/audio/voice/ab9ef95ae853_female.ogg"
+  },
+  "ERROU.": {
+    "male": "assets/audio/voice/ad72bee554a4_male.ogg",
+    "female": "assets/audio/voice/ad72bee554a4_female.ogg"
+  },
+  "EU AGUENTO!": {
+    "male": "assets/audio/voice/828e529c30fa_male.ogg",
+    "female": "assets/audio/voice/828e529c30fa_female.ogg"
+  },
+  "EU JÁ FIZ ISSO.": {
+    "male": "assets/audio/voice/c5ee92ad2615_male.ogg",
+    "female": "assets/audio/voice/c5ee92ad2615_female.ogg"
+  },
+  "EU JÁ VI ESTE MOMENTO.": {
+    "male": "assets/audio/voice/4e88fcd52ad6_male.ogg",
+    "female": "assets/audio/voice/4e88fcd52ad6_female.ogg"
+  },
+  "EU JÁ VI SEU FIM.": {
+    "male": "assets/audio/voice/afcb5e0e98a1_male.ogg",
+    "female": "assets/audio/voice/afcb5e0e98a1_female.ogg"
+  },
+  "EU NÃO CAIO!": {
+    "male": "assets/audio/voice/49d72c1f43da_male.ogg",
+    "female": "assets/audio/voice/49d72c1f43da_female.ogg"
+  },
+  "EU SEGURO A LINHA!": {
+    "male": "assets/audio/voice/49bc6cc5b9bb_male.ogg",
+    "female": "assets/audio/voice/49bc6cc5b9bb_female.ogg"
+  },
+  "EU VI ISSO.": {
+    "male": "assets/audio/voice/e8e88da2bd06_male.ogg",
+    "female": "assets/audio/voice/e8e88da2bd06_female.ogg"
+  },
+  "EU VI O FIM DE TODOS VOCÊS.": {
+    "male": "assets/audio/voice/a1d01b04ddf5_male.ogg",
+    "female": "assets/audio/voice/a1d01b04ddf5_female.ogg"
+  },
+  "EXPLODA!": {
+    "male": "assets/audio/voice/bf6237ddaefd_male.ogg",
+    "female": "assets/audio/voice/bf6237ddaefd_female.ogg"
+  },
+  "FLECHA FANTASMA!": {
+    "male": "assets/audio/voice/df12be0aa9b5_male.ogg",
+    "female": "assets/audio/voice/df12be0aa9b5_female.ogg"
+  },
+  "Fogo do Véu, reúna-se...": {
+    "male": "assets/audio/voice/e67233ae92ce_male.ogg",
+    "female": "assets/audio/voice/e67233ae92ce_female.ogg"
+  },
+  "HORIZONTE... PARTIDO!": {
+    "male": "assets/audio/voice/5ec2674e9d3f_male.ogg",
+    "female": "assets/audio/voice/5ec2674e9d3f_female.ogg"
+  },
+  "INCINERAR!": {
+    "male": "assets/audio/voice/4c9d712aa414_male.ogg",
+    "female": "assets/audio/voice/4c9d712aa414_female.ogg"
+  },
+  "INSTANTE IMÓVEL!": {
+    "male": "assets/audio/voice/3fa5fcce481a_male.ogg",
+    "female": "assets/audio/voice/3fa5fcce481a_female.ogg"
+  },
+  "MARCADO.": {
+    "male": "assets/audio/voice/abb703765e8c_male.ogg",
+    "female": "assets/audio/voice/abb703765e8c_female.ogg"
+  },
+  "METEORO DO VÉU!": {
+    "male": "assets/audio/voice/9466a5ba6df0_male.ogg",
+    "female": "assets/audio/voice/9466a5ba6df0_female.ogg"
+  },
+  "MINHA VEZ!": {
+    "male": "assets/audio/voice/54a4756d4882_male.ogg",
+    "female": "assets/audio/voice/54a4756d4882_female.ogg"
+  },
+  "MINHA VEZ.": {
+    "male": "assets/audio/voice/71c522cad4b4_male.ogg",
+    "female": "assets/audio/voice/71c522cad4b4_female.ogg"
+  },
+  "MIRA NELES!": {
+    "male": "assets/audio/voice/2614212ea223_male.ogg",
+    "female": "assets/audio/voice/2614212ea223_female.ogg"
+  },
+  "MUITO LENTO.": {
+    "male": "assets/audio/voice/87647011f7f5_male.ogg",
+    "female": "assets/audio/voice/87647011f7f5_female.ogg"
+  },
+  "NÃO AINDA!": {
+    "male": "assets/audio/voice/b64e43bd4788_male.ogg",
+    "female": "assets/audio/voice/b64e43bd4788_female.ogg"
+  },
+  "O DESTINO FOI ESCRITO!": {
+    "male": "assets/audio/voice/a7822632564f_male.ogg",
+    "female": "assets/audio/voice/a7822632564f_female.ogg"
+  },
+  "O TEMPO ACABA AQUI!": {
+    "male": "assets/audio/voice/d5a712c8ec6c_male.ogg",
+    "female": "assets/audio/voice/d5a712c8ec6c_female.ogg"
+  },
+  "OLHE PARA SI.": {
+    "male": "assets/audio/voice/dfb0ea11bdb1_male.ogg",
+    "female": "assets/audio/voice/dfb0ea11bdb1_female.ogg"
+  },
+  "OLHEM PARA MIM!": {
+    "male": "assets/audio/voice/07efd4273c61_male.ogg",
+    "female": "assets/audio/voice/07efd4273c61_female.ogg"
+  },
+  "PARE.": {
+    "male": "assets/audio/voice/b5a1fe63c8ba_male.ogg",
+    "female": "assets/audio/voice/b5a1fe63c8ba_female.ogg"
+  },
+  "PARTA.": {
+    "male": "assets/audio/voice/49dfd947dcf9_male.ogg",
+    "female": "assets/audio/voice/49dfd947dcf9_female.ogg"
+  },
+  "PRISÃO GLACIAL!": {
+    "male": "assets/audio/voice/852d53244a96_male.ogg",
+    "female": "assets/audio/voice/852d53244a96_female.ogg"
+  },
+  "PROCISSÃO DOS MORTOS!": {
+    "male": "assets/audio/voice/4a36b915d0dd_male.ogg",
+    "female": "assets/audio/voice/4a36b915d0dd_female.ogg"
+  },
+  "PROTOCOLO ZERO!": {
+    "male": "assets/audio/voice/a57bce8c232d_male.ogg",
+    "female": "assets/audio/voice/a57bce8c232d_female.ogg"
+  },
+  "QUEBREM!": {
+    "male": "assets/audio/voice/a2341383171a_male.ogg",
+    "female": "assets/audio/voice/a2341383171a_female.ogg"
+  },
+  "QUEIME!": {
+    "male": "assets/audio/voice/bfbc4f23437c_male.ogg",
+    "female": "assets/audio/voice/bfbc4f23437c_female.ogg"
+  },
+  "Que o espaço se dobre diante de mim...": {
+    "male": "assets/audio/voice/f93c08f4fbac_male.ogg",
+    "female": "assets/audio/voice/f93c08f4fbac_female.ogg"
+  },
+  "RAJADA!": {
+    "male": "assets/audio/voice/32f57b202f6a_male.ogg",
+    "female": "assets/audio/voice/32f57b202f6a_female.ogg"
+  },
+  "RASGUE O ESPAÇO!": {
+    "male": "assets/audio/voice/a43db22ba91b_male.ogg",
+    "female": "assets/audio/voice/a43db22ba91b_female.ogg"
+  },
+  "RASGUE!": {
+    "male": "assets/audio/voice/9caad435f9ad_male.ogg",
+    "female": "assets/audio/voice/9caad435f9ad_female.ogg"
+  },
+  "RECUEM!": {
+    "male": "assets/audio/voice/cd677cf995ba_male.ogg",
+    "female": "assets/audio/voice/cd677cf995ba_female.ogg"
+  },
+  "REPARO DE EMERGÊNCIA!": {
+    "male": "assets/audio/voice/9d1a4a63c1c5_male.ogg",
+    "female": "assets/audio/voice/9d1a4a63c1c5_female.ogg"
+  },
+  "RESSONÂNCIA MÁXIMA!": {
+    "male": "assets/audio/voice/dacb932bb94a_male.ogg",
+    "female": "assets/audio/voice/dacb932bb94a_female.ogg"
+  },
+  "RUPTURA DA LÂMINA!": {
+    "male": "assets/audio/voice/b6cdf7327b2c_male.ogg",
+    "female": "assets/audio/voice/b6cdf7327b2c_female.ogg"
+  },
+  "SAIAM DA FRENTE!": {
+    "male": "assets/audio/voice/42c2ccc575ee_male.ogg",
+    "female": "assets/audio/voice/42c2ccc575ee_female.ogg"
+  },
+  "SALTE!": {
+    "male": "assets/audio/voice/9ac8643549da_male.ogg",
+    "female": "assets/audio/voice/9ac8643549da_female.ogg"
+  },
+  "SEGUREM!": {
+    "male": "assets/audio/voice/6cb5eef0917b_male.ogg",
+    "female": "assets/audio/voice/6cb5eef0917b_female.ogg"
+  },
+  "SENTENÇA FINAL!": {
+    "male": "assets/audio/voice/04f8c5fb5dde_male.ogg",
+    "female": "assets/audio/voice/04f8c5fb5dde_female.ogg"
+  },
+  "SEU ERRO COMEÇA AQUI.": {
+    "male": "assets/audio/voice/b5b8ba820088_male.ogg",
+    "female": "assets/audio/voice/b5b8ba820088_female.ogg"
+  },
+  "SINGULARIDADE ARCANA!": {
+    "male": "assets/audio/voice/288e4a3b3a76_male.ogg",
+    "female": "assets/audio/voice/288e4a3b3a76_female.ogg"
+  },
+  "SISTEMA: SOBRECARGA!": {
+    "male": "assets/audio/voice/f58cfd5ac5f0_male.ogg",
+    "female": "assets/audio/voice/f58cfd5ac5f0_female.ogg"
+  },
+  "SUA ESSÊNCIA É MINHA!": {
+    "male": "assets/audio/voice/c170328d9848_male.ogg",
+    "female": "assets/audio/voice/c170328d9848_female.ogg"
+  },
+  "TARDE DEMAIS.": {
+    "male": "assets/audio/voice/b878507aa66b_male.ogg",
+    "female": "assets/audio/voice/b878507aa66b_female.ogg"
+  },
+  "TENTE ACOMPANHAR.": {
+    "male": "assets/audio/voice/b99ce964bb04_male.ogg",
+    "female": "assets/audio/voice/b99ce964bb04_female.ogg"
+  },
+  "TENTE PASSAR!": {
+    "male": "assets/audio/voice/1afe7c0949b4_male.ogg",
+    "female": "assets/audio/voice/1afe7c0949b4_female.ogg"
+  },
+  "UNIDADE ATIVA!": {
+    "male": "assets/audio/voice/79259d7a0749_male.ogg",
+    "female": "assets/audio/voice/79259d7a0749_female.ogg"
+  },
+  "VENHA!": {
+    "male": "assets/audio/voice/f039289e582f_male.ogg",
+    "female": "assets/audio/voice/f039289e582f_female.ogg"
+  },
+  "VENHAM A MIM.": {
+    "male": "assets/audio/voice/2c83e2f6576f_male.ogg",
+    "female": "assets/audio/voice/2c83e2f6576f_female.ogg"
+  },
+  "VENHAM TODOS!": {
+    "male": "assets/audio/voice/0677ef358261_male.ogg",
+    "female": "assets/audio/voice/0677ef358261_female.ogg"
+  },
+  "VOCÊ. COMIGO.": {
+    "male": "assets/audio/voice/00fdf4491a9f_male.ogg",
+    "female": "assets/audio/voice/00fdf4491a9f_female.ogg"
+  },
+  "VOLTE.": {
+    "male": "assets/audio/voice/3661426df1c9_male.ogg",
+    "female": "assets/audio/voice/3661426df1c9_female.ogg"
+  }
+}
